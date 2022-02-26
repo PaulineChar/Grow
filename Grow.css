@@ -5,7 +5,8 @@ body
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: top;
-	color : red;
+	color : black;
+	font-family: Helvetica, Georgia, Verdana, sans-serif; 
 }
 
 #nav {
@@ -67,3 +68,8 @@ body
 	text-shadow: -1px -1px 0 #000;
 }
 
+h1
+{
+	text-align: center;
+	font-family: "Bradley Hand", "Comic Sans MS", Helvetica, Georgia, sans-serif;
+}
