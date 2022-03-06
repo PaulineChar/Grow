@@ -67,3 +67,9 @@ body
 	background: linear-gradient(bottom , #444444 0pt, #3E3E3E 50%, #505050 51%, #606060 100%) repeat scroll 0 0 transparent;
 	text-shadow: -1px -1px 0 #000;
 }
+
+h1
+{
+	text-align: center;
+	font-family: "Bradley Hand", "Comic Sans MS", Helvetica, Georgia, sans-serif;
+}
