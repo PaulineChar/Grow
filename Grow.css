@@ -1,12 +1,17 @@
 body
 {
 	background-color: rgb(210,223,100);
-	background-image: url("images/Header Logo1.PNG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
+	width: 100%
 	background-position: top;
 	color : black;
 	font-family: Helvetica, Georgia, Verdana, sans-serif; 
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
+	margin:0;
 }
 
 #nav {
@@ -26,6 +31,8 @@ body
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #nav li {
@@ -74,7 +81,30 @@ h1
 	font-family: "Bradley Hand", Helvetica, "Comic Sans MS", Georgia, sans-serif;
 }
 
-div
+
+.headd
+{
+	margin: 0;
+}
+
+.text
+{
+	margin-left: 15px;
+}
+
+.contenant
+{
+	position: relative;
+}
+.title
+{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.middle
 {
 	text-align: center;
 }

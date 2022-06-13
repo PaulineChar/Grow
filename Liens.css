@@ -1,12 +1,12 @@
 body
 {
 	background-color: rgb(206,0,31);
-	background-image: url("images/Header Logo2.PNG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: top;
 	color : rgb(210,223,100);
 	font-family: Helvetica, Georgia, Verdana, sans-serif;
+	margin: 0;
 }
 
 #nav {
@@ -78,4 +78,57 @@ h1
 h3
 {
 	color : black;
+}
+
+#cent
+{
+	text-align: center;
+
+}
+#far
+{
+	text-align: right;
+	margin-right: 15px;
+}
+#close
+{
+	margin-left: 15px
+}
+
+.floatright
+{
+	float: right;
+}
+
+.floatleft
+{
+	float: left;
+}
+
+.block
+{
+	display: inline-block;
+}
+
+.headd
+{
+	margin: 0;
+}
+
+
+.contenant
+{
+	position: relative;
+}
+.title
+{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.middle
+{
+	text-align: center;
 }

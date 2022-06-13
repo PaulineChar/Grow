@@ -1,12 +1,16 @@
 body
 {
 	background-color: rgb(210,223,100);
-	background-image: url("images/Header Logo3.PNG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: top;
 	color : black;
 	font-family: Helvetica, Georgia, Verdana, sans-serif; 
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
+	margin:0;
 }
 
 #nav {
@@ -77,4 +81,26 @@ h1
 div
 {
 	text-align: center;
+}
+
+.headd
+{
+	margin: 0;
+}
+
+.text
+{
+	margin-left: 15px;
+}
+
+.contenant
+{
+	position: relative;
+}
+.title
+{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
